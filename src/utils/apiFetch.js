@@ -1,6 +1,6 @@
 // src/utils/apiFetch.js
 export const apiFetch = async (endpoint, options = {}) => {
-  const response = await fetch(`http://localhost:5000/api/${endpoint}`, {
+  const response = await fetch(`http://event-management-dashboard-backend.onrender.com/api/${endpoint}`, {
     headers: {
       "Content-Type": "application/json",
     },
