@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 const Logout = () => {
     const navigate = useNavigate();
   const handleLogout = async () => {
-    const response = await fetch("http://event-management-dashboard-backend.onrender.com/api/auth/logout", {
+    const response = await fetch("https://event-management-dashboard-backend.onrender.com/api/auth/logout", {
       method: "POST",
       credentials: "include", // Include cookies when making the request
     });

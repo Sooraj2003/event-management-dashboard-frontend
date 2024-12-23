@@ -22,7 +22,7 @@ const Register = () => {
 
     try {
       // Send register request to the Node.js backend
-      const response = await fetch("http://event-management-dashboard-backend.onrender.com/api/auth/register", {
+      const response = await fetch("https://event-management-dashboard-backend.onrender.com/api/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
